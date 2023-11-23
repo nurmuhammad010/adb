@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #252B42;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 90%;
+height: 80px;
+color: white;
+background: yellow;
+}
+.contact{
+    width: 90%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+
+}
+.text{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: red;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+
+}
+.img{
+    width: 400px;
+    height:400px;
+    background-color: lightgreen;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+ 
+}
+.img img{
+    position: absolute;
+    
+    top: 5px;
+    background-size: 80% 80%;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.top{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    background: rgb(0, 76, 255);
+}
+.left{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: wheat; 
+    bottom: 5px;
+    left: 0px;
+}
+.right{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: aqua; 
+    bottom: 5px;
+    right: 0px;  
+}
